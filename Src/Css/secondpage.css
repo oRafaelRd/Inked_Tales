@@ -1,0 +1,60 @@
+nav {
+    background-color: black;
+}
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+  
+.navbar-nav .nav-link:hover {
+    color: rgb(0, 17, 255);
+    text-decoration: underline;
+}
+  
+.navbar-nav .nav-link.active {
+    color: green;
+}
+main {
+    background-color: rgb(215, 214, 214);
+}
+.author-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card {
+    width: 300px;
+    margin-top: 15px;
+}
+.card-group {
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 40px;
+}
+.card-group img{
+    height: 370px;
+}
+.card-group a{
+    color: black;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+}
+.author-container {
+    padding-top: 20px;
+}
+.about-author {
+    padding: 50px;
+}
+.description-container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.relationed-container h2 {
+    padding-top: 30px;
+    padding-left: 80px;
+}
